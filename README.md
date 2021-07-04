@@ -16,6 +16,13 @@ vagrant plugin install virtualbox_WSL2
 
 Nothing special, just use standard `vagrant up` and `vagrant ssh` commands.
 
+## Prerequisites
+Set following sample env variable appropriately
+VAGRANT_WSL_WINDOWS_ACCESS_USER_HOME_PATH=/mnt/c/VAGRANT_PROJECTS/UREG/ureg-dlt-poc
+VAGRANT_WSL_ENABLE_WINDOWS_ACCESS=1
+
+Refer to https://www.vagrantup.com/docs/other/wsl for more
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/karandash8/virtualbox_WSL2.
