@@ -19,3 +19,6 @@ Nothing special, just use standard `vagrant up` and `vagrant ssh` commands.
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/karandash8/virtualbox_WSL2.
+
+## Check
+Please refer to script.ps1 to enable dns permissions
